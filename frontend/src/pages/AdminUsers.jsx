@@ -70,7 +70,6 @@ const AdminUsers = () => {
             <select value={roleFilter} onChange={(e) => { setRoleFilter(e.target.value); setPage(1); }} className="select-field !w-auto !py-2.5">
               <option value="">All Roles</option>
               <option value="user">User</option>
-              <option value="staff">Staff</option>
               <option value="admin">Admin</option>
             </select>
             <button type="submit" className="btn-primary !py-2.5 text-sm">Search</button>
